@@ -1,0 +1,67 @@
+body#main-body {
+    background-color: rgb(162, 178, 199); 
+    font-family: Arial, sans-serif; 
+    color: #333; 
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.section-heading {
+    color: #2c3e50; 
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.description {
+    color: blue; 
+    font-size: 1em;
+}
+
+.divider {
+    border: 0;
+    height: 3px;
+    background: #ccc;
+    margin: 20px 0;
+}
+
+.form-label {
+    color: #4a4a4a; 
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+button {
+    background-color: #3498db; 
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #2980b9; 
+}
+
+input[type="text"] {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: calc(100% - 20px);
+}
+
+#random-joke, #category-list, #search-results, #add-joke-result {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #ffffff; /* White background for joke areas */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.joke {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}

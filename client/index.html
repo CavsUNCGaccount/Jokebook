@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="client.js"></script>
+    <title>Jokebook</title>
+</head>
+
+<body id="main-body">
+
+    <h2 class="section-heading">Random Joke</h2>
+    <div id="random-joke"></div>
+    <hr class="divider">
+
+    <h2 class="section-heading">Joke Categories</h2>
+    <button id="load-categories">Load Categories</button>
+    <div id="category-list"></div>
+    <hr class="divider">
+
+    <h2 class="section-heading">Search Jokes by Category</h2>
+    <p class="description">Enter "lameJoke" for lame jokes and "funnyJoke" for funny jokes.</p>
+    <input type="text" id="category-search" placeholder="Enter category name here">
+    <button id="search-category">Search</button>
+    <div id="search-results"></div>
+    <hr class="divider">
+
+    <h2 class="section-heading">Add a New Joke</h2>
+    <form id="add-joke-form">
+        <label for="new-category" class="form-label">Category:</label>
+        <input type="text" id="new-category" required><br>
+        <label for="new-setup" class="form-label">Setup:</label>
+        <input type="text" id="new-setup" required><br>
+        <label for="new-delivery" class="form-label">Delivery:</label>
+        <input type="text" id="new-delivery" required><br>
+        <button type="submit" id="add-joke-button">Add Joke</button>
+    </form>
+    <div id="add-joke-result"></div>
+    <hr class="divider">
+
+</body>
+
+</html>
